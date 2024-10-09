@@ -1,8 +1,8 @@
-# P1 Optimisation and Operational Research - LEFEBVRE Romain Group B
+# P1 Optimization and Operational Research - LEFEBVRE Romain Group B
 
 ## Overview
 
-This project aims to optimize the profit from wheat and barley cultivation based on specified constraints related to perimeter, area, and non-linear conditions. The optimization is performed using the Sequential Least Squares Programming (SLSQP) method, and results are visualized in a 3D plot showing the feasible region and the objective function.
+This project aims to optimize the profit from wheat and barley cultivation based on specified constraints related to perimeter, area, and non-linear conditions. The optimization is performed using SLSQP method from the scipy library, and results are visualized in a 3D plot showing the feasible region and the objective function with the optimized solution.
 
 ## Table of Contents
 
@@ -12,7 +12,7 @@ This project aims to optimize the profit from wheat and barley cultivation based
 
 ## Features
 
-- **Profit Optimisation**: Computes the optimised size of the area (length & width) with the maximum profit possible based on the constraints and the bounds entered.
+- **Profit Optimization**: Computes the optimized size of the area (length & width) with the maximum profit possible based on the constraints and the bounds entered.
 - **Constraint Implementation**: Perimeter, area, and non-linear constraints are implemented
 - **Visualization**: Displays a 3D plot of the objective function and the feasible region with the optimal solution found.
 - **Command-Line Arguments**: Allows to chose the bounds of the variables
